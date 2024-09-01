@@ -38,24 +38,24 @@ func main() {
     router := gin.Default()
 
     // Set up middleware
-    router.Use(middleware.TracingMiddleware())
+//     router.Use(middleware.TracingMiddleware())
 
-    // Set up CORS
-    corsConfig := cors.DefaultConfig()
-    corsConfig.AllowAllOrigins = true
-    router.Use(cors.New(corsConfig))
+//     // Set up CORS
+//     corsConfig := cors.DefaultConfig()
+//     corsConfig.AllowAllOrigins = true
+//     router.Use(cors.New(corsConfig))
 
-    // Set up routes
-    route.SetupRoutes(router)
+//     // Set up routes
+//     route.SetupRoutes(router)
 
-    // Start server
-    port := viper.GetString("SERVER_PORT")
-    if port == "" {
-        port = ":8080" // default port if not specified
-    }
-    fmt.Printf("Server started at port %s\n", port)
-    if err := router.Run(port); err != nil {
-        log.Fatalf("Failed to start server: %v", err)
-    }
-}
+//     // Start server
+//     port := viper.GetString("SERVER_PORT")
+//     if port == "" {
+//         port = ":8080" // default port if not specified
+//     }
+//     fmt.Printf("Server started at port %s\n", port)
+//     if err := router.Run(port); err != nil {
+//         log.Fatalf("Failed to start server: %v", err)
+//     }
+// }
 

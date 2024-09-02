@@ -21,3 +21,4 @@ func SearchCryptocurrencies(term string) ([]models.Cryptocurrency, error) {
 	}
 	return cryptocurrencies, nil
 }
+

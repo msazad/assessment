@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	db "github.com/msazad/utils/database"
+	db "github.com/msazad/assessment/utils/database"
 	"gorm.io/gorm"
 )
 

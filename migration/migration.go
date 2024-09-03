@@ -1,8 +1,8 @@
 package migration
 
 import (
-    "web-api/src/models"
-    "web-api/utils/database"
+    "github.com/msazad/assessment/src/models"
+    "github.com/msazad/assessment/utils/database"
 )
 
 func Migrate() {

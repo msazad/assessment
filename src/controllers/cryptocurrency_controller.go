@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"net/http"
-	"web-api/src/repository"
+	"github.com/msazad/assessment/src/repository"
 
 	"github.com/gin-gonic/gin"
 )

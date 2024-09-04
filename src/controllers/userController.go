@@ -2,11 +2,11 @@ package controllers
 
 import (
 	"net/http"
-	"web-api/src/models"
-	service "web-api/src/service"
-	"web-api/utils/constant"
-	"web-api/utils/response"
-	val "web-api/utils/validator"
+	"github.com/msazad/assessment/src/models"
+	service "github.com/msazad/assessment/src/service"
+	"github.com/msazad/assessment/utils/constant"
+	"github.com/msazad/assessment/utils/response"
+	val "github.com/msazad/assessment/utils/validator"
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"

@@ -1,7 +1,7 @@
 package route
 
 import (
-	controllers"github.com/msazad/assessment/src/controllers"
+	controllers "github.com/msazad/assessment/src/controllers"
 
 	"github.com/gin-gonic/gin"
 )

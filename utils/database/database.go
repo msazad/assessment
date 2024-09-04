@@ -13,7 +13,7 @@ import (
 var once sync.Once
 var DB *gorm.DB
 
-func initpostgres() {
+func Initpostgres() {
 	once.Do(func() {
 		user := viper.GetString("DB_USER")
 		password := viper.GetString("DB_PASSWORD")

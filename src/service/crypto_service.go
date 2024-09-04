@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 	"time"
-	"web-api/src/models"
-	"web-api/src/repository"
+	"github.com/msazad/assessment/src/models"
+	"github.com/msazad/assessment/src/repository"
 
 	"github.com/spf13/viper"
 )

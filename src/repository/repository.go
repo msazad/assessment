@@ -2,8 +2,7 @@ package repository
 
 import (
 	"log"
-	"web-api/src/models"
-	"web-api/utils/database"
+	
 )
 
 var Repo PostgresRepository

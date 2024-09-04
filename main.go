@@ -3,11 +3,11 @@ package main
 import (
     "fmt"
     "log"
-    "web-api/migration"
-    "web-api/route"
-    "web-api/src/cronjob"
-    "web-api/utils/database"
-    "web-api/utils/middleware"
+    "github.com/msazad/assessment/migration"
+    "github.com/msazad/assessment/route"
+    "github.com/msazad/assessment/src/cronjob"
+    "github.com/msazad/assessment/utils/database"
+    "github.com/msazad/assessment/utils/middleware"
     "github.com/gin-contrib/cors"
     "github.com/gin-gonic/gin"
     "github.com/spf13/viper"
@@ -29,7 +29,7 @@ func main() {
     cronjob.StartCronJob()
 
     // Initialize PostgreSQL database connection
-    database.InitPostgres()
+    database.Initpostgres()
 
     // Run migrations
     migration.Migrate()

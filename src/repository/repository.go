@@ -2,7 +2,9 @@ package repository
 
 import (
 	"log"
-	
+
+	"github.com/msazad/assessment/src/models"
+	"github.com/msazad/assessment/utils/database"
 )
 
 var Repo PostgresRepository
